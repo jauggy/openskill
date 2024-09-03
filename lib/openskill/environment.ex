@@ -4,7 +4,7 @@ defmodule Openskill.Environment do
   @sigma @mu / @z
   @beta @sigma / 2
   @epsilon 0.0001
-  @tau 1 / 3
+  @tau 0
   @prevent_sigma_increase false
 
   defstruct mu: @mu,
